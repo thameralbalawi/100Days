@@ -18,6 +18,6 @@
   <br />
   <h6 align="center">
   <em>
-    Python
+ Python
   </em>
   <br />
