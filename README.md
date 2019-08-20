@@ -1,5 +1,6 @@
-<img src="https://pbs.twimg.com/profile_images/1084013687004893184/fUYnr5lF_400x400.jpg" alt="المبادرة السعودية للمطورين"class="center">
-
+<center>
+    <img src="https://pbs.twimg.com/profile_images/1084013687004893184/fUYnr5lF_400x400.jpg" alt="المبادرة السعودية للمطورين" />
+</center>
 
 <h3 align="center">
   <em>
