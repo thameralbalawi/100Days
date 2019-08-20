@@ -1,3 +1,4 @@
-// day *001
-print("Hello")
-print("Hi")
+# Day 1
+print("Hello, World!")
+if 5 > 2:
+    print("Five is greater than two!")
