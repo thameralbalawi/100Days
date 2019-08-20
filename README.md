@@ -1,6 +1,5 @@
 
 <img align="right" width="200" height="200" src="https://pbs.twimg.com/profile_images/1084013687004893184/fUYnr5lF.jpg">
-
   <h4 align="center">
   <em>
 المبادرة السعودية للمطورين 
