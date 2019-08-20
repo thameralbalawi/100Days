@@ -1,6 +1,4 @@
-<p align="center">
-    ![المبادرة السعودية للمطورين] (https://pbs.twimg.com/profile_images/1084013687004893184/fUYnr5lF_400x400.jpg)
-   <br />
+![المبادرة السعودية للمطورين] (https://pbs.twimg.com/profile_images/1084013687004893184/fUYnr5lF_400x400.jpg)
   
 <p align="center">
   <em>
