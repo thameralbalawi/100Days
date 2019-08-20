@@ -7,9 +7,8 @@
 المبادرة السعودية للمطورين
   </em>
   <br />
-  <h2 align="center">
+  <h4 align="center">
   <em>
- hashtag
 #100DaysOfCode ...
 #١٠٠_يوم_برمجه  
   </em>
