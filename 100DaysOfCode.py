@@ -45,6 +45,9 @@ print(type(a))
 print(type(b))
 print(type(c))
 
+import random
+print(random.randrange(1,10))
+
 # Day 5
 x = "apple"
 y = "orange"
