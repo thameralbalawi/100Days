@@ -56,3 +56,28 @@ z = "limon"
 basket = [x , y , z]
 n= [5]
 [basket[sum(n[:i]):sum(n[:i+1])] for i in range(len(n))]
+
+# Day 6
+print("######## exercise 1 #########")
+x = int(1)
+y = int(2.8)
+z = int("3")
+print(x)
+print(y)
+print(z)
+print("######## exercise 2 #########")
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.2")
+print(x)
+print(y)
+print(z)
+print(w)
+print("######## exercise 3 #########")
+x = str("s1")
+y = str(2)
+z = str(3.0)
+print(x)
+print(y)
+print(z)
