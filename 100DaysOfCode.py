@@ -81,3 +81,27 @@ z = str(3.0)
 print(x)
 print(y)
 print(z)
+
+#day 7
+
+print("######## exercise 1 #########")
+
+print("hello")
+print('hello')
+
+print("######## exercise 2 #########")
+a="hello"
+print(a)
+
+print("######## exercise 3 #########")
+
+a ="""Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua."""
+print(a)
+
+print("######## exercise 4 #########")
+
+a="Hello World"
+print (a[1])
+b="Hello World"
+print (b[2:5])
