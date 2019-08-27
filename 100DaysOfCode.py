@@ -106,7 +106,7 @@ print (a[1])
 b="Hello World"
 print (b[2:5])
 
-# day 8
+# Day 8
 a = "Hello, World!"
 
 print(a.strip()) # returns "Hello, world"
