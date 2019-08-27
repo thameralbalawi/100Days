@@ -82,7 +82,7 @@ print(x)
 print(y)
 print(z)
 
-#day 7
+# Day 7
 
 print("######## exercise 1 #########")
 
@@ -105,3 +105,15 @@ a="Hello World"
 print (a[1])
 b="Hello World"
 print (b[2:5])
+
+# day 8
+a = "Hello, World!"
+
+print(a.strip()) # returns "Hello, world"
+print(len (a))
+print(a.lower())
+print(a.upper())
+print(a.replace("H", "J"))
+print(a.split(",")) # returns ['Hello', 'world']
+
+
