@@ -132,3 +132,26 @@ print(myorder.format(quantity, itemno, price))
 print("######## exercise 3 #########")
 myorder2 = "I want to pay {2} dollars for {0} pieces of item {1}."
 print(myorder2.format(quantity, itemno, price))
+
+# Day 10
+print("######## exercise 1 #########")
+x = 5
+y = 3
+z = 15
+print(x - y)
+print(x + y)
+print(x * y)
+print(x ** y)
+print(x % y)
+print(x / y)
+print(x // y)
+print("######## exercise 2 #########")
+x /= 3
+y += 4
+z %= 5
+print(x)
+print(y)
+print(z)
+print("######## exercise 3 #########")
+print(x < y)
+print(z > x)
