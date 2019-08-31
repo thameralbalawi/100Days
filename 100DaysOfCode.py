@@ -155,3 +155,25 @@ print(z)
 print("######## exercise 3 #########")
 print(x < y)
 print(z > x)
+
+# Day 11
+print("######## exercise 1 #########")
+x = 5
+print(x > 3 or x < 4)
+
+print("######## exercise 2 #########")
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is not z)
+print(x is not y)
+print(x != y)
+print("banana" in x)
+
+# Day 12
+sentence = "Please, I want {} sandwishes and {} donutes"
+sentence = sentence.format(5, 7)
+sentence = sentence.replace("a", "A")
+sentence = sentence.replace("I", "We")
+print(sentence)
