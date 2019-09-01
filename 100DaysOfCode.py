@@ -177,3 +177,32 @@ sentence = sentence.format(5, 7)
 sentence = sentence.replace("a", "A")
 sentence = sentence.replace("I", "We")
 print(sentence)
+
+# Day 13
+print("######## exercise 1 #########")
+numbers = [1, 2, 3, 4, 5]
+print(numbers)
+
+print("######## exercise 2 #########")
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+
+print("######## exercise 3 #########")
+thislist2 = ["apple", "banana", "cherry", 1, 2, 3]
+print(thislist2)
+print(thislist[2])
+
+print("######## exercise 4 #########")
+for x in thislist:
+    print(x)
+
+Mylist = [56, 85, 5, 12]
+for Ml in Mylist:
+    print(Ml)
+
+print("######## exercise 5 #########")
+thislist[1] = "blckcurrent"
+print(thislist)
+
+del thislist[0]
+print(thislist)
