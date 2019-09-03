@@ -206,3 +206,24 @@ print(thislist)
 
 del thislist[0]
 print(thislist)
+
+# Day 13
+thislist = ["A", "B", "C", "D", "E"]
+print(thislist[1:3])
+
+thislist2 = ["apple", "banana", "cherry"]
+if "apple" in thislist2:
+    print("yes, 'apple' is in the fruits list")
+    
+thislist = ["بايثون"] * 4
+print(thislist)
+
+thislist1 = ["Ahmad", "Khalid", "Omar"]
+thislist2 = ["Sara", "Hind", "Batool"]
+thislist3 = thislist1 + thislist2
+print(thislist3)
+
+number1 = [7.5, 3.6, 4.7]
+number2 = [6, 4, 8]
+number3 = number1 + number2
+print(thislist3)
