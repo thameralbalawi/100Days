@@ -207,7 +207,7 @@ print(thislist)
 del thislist[0]
 print(thislist)
 
-# Day 13
+# Day 14
 thislist = ["A", "B", "C", "D", "E"]
 print(thislist[1:3])
 
