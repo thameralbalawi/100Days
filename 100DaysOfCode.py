@@ -227,3 +227,21 @@ number1 = [7.5, 3.6, 4.7]
 number2 = [6, 4, 8]
 number3 = number1 + number2
 print(thislist3)
+
+# Day 15
+thislist3 = ["apple", "banana", "cherry"]
+BackupList = thislist3.copy()
+Backup2List = list(thislist3)
+print(len(thislist3))
+thislist3.append("orange")
+print(thislist3)
+thislist3.insert(1, "orange")
+print(thislist3)
+thislist3.pop(4)
+print(thislist3)
+thislist3.remove("orange")
+print(thislist3)
+thislist3.clear()
+print(thislist3)
+print(BackupList)
+print(Backup2List)
