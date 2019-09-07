@@ -245,3 +245,51 @@ thislist3.clear()
 print(thislist3)
 print(BackupList)
 print(Backup2List)
+
+# Day 16 
+thistuple =("apple", "banana", "cherry")
+print(thistuple)
+
+thistuple=()
+print(thistuple)
+
+thistuple=(3.)
+print(thistuple)
+
+thistuple2 =(3, 1.3, 4.1, 7)
+print(thistuple2)
+print(thistuple2[0])
+for x in thistuple2:
+    print(x)
+
+print("######## exercise 1 #########")
+thistuple3 =("apple", "banana", "cherry")
+for x in thislist3:
+    print(x)
+
+print("######## exercise 2 #########")
+thistuple3 =("apple", "banana", "cherry", "orange")
+print(thistuple3[0:3])
+
+# Day 17
+thistuple = ("apple", "banana", "cherry")
+if "apple" in thistuple:
+    print("yes, 'apple' is in the fruts tuple")
+
+    thistuple= ("بايثون",) * 3
+    print(thistuple)
+
+thistuple1 = (1, 2, 3, 4)
+thistuple2 = (5, 6)
+
+thistuple = thistuple1 + thistuple2
+print(thistuple)
+
+print("######## exercise 1 #########")
+thistuple = ("apple", "banana", "cherry")
+print(len(thistuple))
+print("######## exercise 2 #########")
+thistuple1 = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple1[1])
+print(thistuple1[-2])
+print(thistuple1[0:4])
