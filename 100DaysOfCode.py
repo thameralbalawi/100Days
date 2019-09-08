@@ -293,3 +293,40 @@ thistuple1 = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple1[1])
 print(thistuple1[-2])
 print(thistuple1[0:4])
+
+# Day 18 - 19
+print("######## exercise 1 #########")
+tuple =["java", "python", "swift", "PHP", "C++"]
+check_list = ["java", "python", "swift"]
+tuple.append('R')
+print(tuple)
+tuple.insert(1,'kotlin')
+print(tuple)
+tuple.remove('swift')
+print(tuple)
+tuple.sort()
+print(tuple)
+tuple.pop()
+print(tuple)
+
+print("######## exercise 2 #########")
+tuple =["java", "python", "swift", "PHP", "C++"]
+if "java" in tuple:
+    print("java is exist")
+else:
+ print("sorry, java not found in the list")
+
+if "python" in tuple:
+    print("python is exist")
+else:
+ print("sorry, python not found in the list")
+
+if "swift" in tuple:
+    print("swift is exist")
+else:
+ print("sorry, swift not found in the list")
+ 
+if "C#" in tuple:
+    print("C# is exist")
+else:
+ print("sorry, C# not found in the list")
