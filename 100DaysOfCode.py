@@ -330,3 +330,30 @@ if "C#" in tuple:
     print("C# is exist")
 else:
  print("sorry, C# not found in the list")
+
+# Day 20
+thisset = {"apple", "banana", "cherry"}
+for x in thisset:
+    print(x)
+print("apple" in thisset)
+thisset.add("orange")
+thisset.update(["orange","mango", "grapes"])
+print(thisset)
+
+# Day 21
+thisset = {"apple", "banana", "cherry"}
+print(len(thisset))
+thisset.remove("banana")
+print(thisset)
+
+thisset = {"apple", "banana", "cherry"}
+thisset.discard("banana")
+print(thisset)
+x = thisset.pop()
+print(x)
+thisset.clear()
+print(thisset)
+del thisset
+
+thisset = set(("apple", "banana", "cherry"))
+print(thisset)
