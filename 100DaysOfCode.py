@@ -357,3 +357,126 @@ del thisset
 
 thisset = set(("apple", "banana", "cherry"))
 print(thisset)
+
+# Day 22
+thisdict1 = {}
+print(thisdict1)
+
+thisdict2 = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
+}
+print(thisdict2)
+
+x = thisdict2["model"]
+
+x = thisdict2.get("model")
+print(x)
+
+thisdict2["year"] = 2018
+print(thisdict2)
+
+for x in thisdict2:
+
+    print(x)
+
+for x in thisdict2:
+
+    print(thisdict2[x])
+
+for x in thisdict2.values():
+
+    print(x)
+
+for x, y in thisdict2.items():
+
+    print(x, y)
+
+# Day 23
+thisdict = {
+     "brand": "Ford",
+     "model": "Mustang",
+     "year": 1964
+}
+
+if "model" in thisdict:
+    print("yes, 'model' is one of the keys in the thisdict_2 dictionary ")
+
+print(len(thisdict))
+
+thisdict["color"] = "red"
+print(thisdict)
+
+thisdict.pop("model")
+print(thisdict)
+
+thisdict.popitem()
+print(thisdict)
+
+
+del thisdict["model"]
+print(thisdict)
+
+thisdict.clear()
+print(thisdict)
+
+
+# Day_24
+
+thisdict = {
+     "brand": "Ford",
+     "model": "Mustang",
+     "year": 1964
+}
+
+copy_dict_1 = thisdict.copy()
+print(copy_dict_1)
+
+copy_dict_2 = dict(thisdict)
+print(copy_dict_2)
+
+myfamily = {
+    "child1": {
+        "name": "Emil",
+        "year": 2004
+    },
+
+    "child2": {
+        "name": "Tobias",
+        "year": 2007
+    },
+    "child3": {
+        "name": "Linus",
+        "year": 2011
+    }
+}
+print(myfamily)
+
+thisdict1 = dict(brand="Ford", model="Mustang", year=1964)
+print(thisdict1)
+
+
+# Day 25 - 26
+set = {1, 3, 5, 7, 8}
+set.update([4, 8, 12])
+print(set)
+
+set.remove(8)
+print(set)
+
+set.clear()
+print(set)
+
+
+thisdict = {"name": "pigeon","type": "bird",
+           "skin cover": "feathers"}
+
+print(thisdict)
+
+x = thisdict.get("type")
+print(x)
+
+
+thisdict["skin cover"] = "skin color"
+print(thisdict)
